@@ -1,0 +1,148 @@
+body {
+    background-color: #f7ecde;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 3.125rem;
+    font-family: Pacifico, cursive;
+    font-weight: 500;
+    line-height: 3.75rem;
+    position: relative;
+}
+
+.frist-title h1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0%;
+    bottom: .625rem;
+    background-color: #fec260;
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+.frist-title h1:hover::before {
+    height: 50%;
+}
+
+
+.bookMark-body {
+    border-top: dotted #352e28;
+    border-bottom: dotted #352e28;
+    border-width: .125rem;
+}
+
+main .bookMark-body h2 {
+    font-size: 1.5625rem;
+    font-weight: "Righteous", serif;
+    font-weight: 800;
+    line-height: 30px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1.875rem;
+}
+
+.bookMark-body .form-control:focus {
+    border-color: #d99c39;
+    box-shadow: 0 0 0 .25rem #fec26055;
+}
+
+.bookMark-body .form-label {
+    font-size: 1rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.bookMark-body .btn-Submit {
+    font-size: 1rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    background-color: #d1512d;
+    color: #fff;
+}
+
+.table th {
+    font-size: 1rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.table .btn-visit {
+    background-color: #9eb23b;
+    color: #fff;
+}
+
+.table .btn-delete {
+    background-color: #eb1d36;
+    color: #fff;
+}
+
+.box-info {
+    background-color: #0007;
+    inset: 0;
+}
+
+.box-content {
+    width: 500px;
+    z-index: 99;
+}
+
+.circles .circle-1 {
+    background-color: #f15f5d;
+}
+
+.circles .circle-2 {
+    background-color: #febe2e;
+}
+
+.circles .circle-3 {
+    background-color: #4db748;
+}
+
+/* .circles span:nth-child(1){
+    background-color: #f15f5d;
+}
+.circles span:nth-child(2){
+    background-color: #febe2e;
+}
+.circles span:nth-child(3){
+    background-color: #4db748;
+} */
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.box-content p {
+    font-size: 21px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    line-height: 27.3px;
+    color: #352e28;
+}
+
+.box-content li{
+    font-size: 18px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.box-content .fa-regular{
+    color: #bb4120;
+}
+
+#closeBtn{
+    cursor: pointer;
+}
